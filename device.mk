@@ -161,6 +161,7 @@ PRODUCT_PACKAGES += \
     libsdmcore \
     libsdmutils \
     libtinyxml \
+    libutilscallstack.vendor \
     libvulkan \
     memtrack.kona \
     vendor.display.config@1.9.vendor \
@@ -388,8 +389,11 @@ PRODUCT_PACKAGES += \
 
 # QMI
 PRODUCT_PACKAGES += \
+    libcurl.vendor:64 \
     libjson \
+    libjsoncpp.vendor \
     libqti_vndfwk_detect.vendor \
+    libsqlite.vendor:64 \
     libvndfwk_detect_jni.qti.vendor
 
 # RemovePackages
@@ -411,6 +415,7 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal \
+    libdumpstateutil.vendor:64 \
     libsensorndkbridge \
     sensors.oplus
 
@@ -527,6 +532,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.media.audio.common.types-V2-cpp \
     libnl \
+    libpng.vendor:32 \
     libwfdaac_vendor \
     vendor.qti.hardware.display.config-V5-ndk
 
