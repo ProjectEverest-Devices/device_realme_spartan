@@ -9,6 +9,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     AdaptiveVPNPrebuilt \
     AiWallpapers \
     AmbientStreaming \
+    Aperture \
     arcore \
     BetterBugStub \
     CarrierLocation \
