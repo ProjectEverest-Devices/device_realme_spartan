@@ -85,7 +85,7 @@
     <bool name="config_enableBurnInProtection">true</bool>
      
     <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
-    <bool name="config_dozePulsePickup">true</bool>
+    <bool name="config_dozePulsePickup">false</bool>
 
     <!-- The behavior when the system detects it has abusive current drains, whether or not to
          move the app to the restricted standby bucket level.
