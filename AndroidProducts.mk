@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/everest_spartan.mk
+    $(LOCAL_DIR)/aosp_spartan.mk
 
 COMMON_LUNCH_CHOICES := \
-    everest_spartan-user \
-    everest_spartan-userdebug \
-    everest_spartan-eng
+    aosp_spartan-user \
+    aosp_spartan-userdebug \
+    aosp_spartan-eng

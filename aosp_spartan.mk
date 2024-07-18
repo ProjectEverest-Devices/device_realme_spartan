@@ -11,10 +11,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from spartan device
 $(call inherit-product, device/realme/spartan/device.mk)
 
-# Inherit some common EverestOS stuff.
-$(call inherit-product, vendor/everest/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := everest_spartan
+# Device Specific Flags
+TARGET_INCLUDE_WIFI_EXT := true
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Extras
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+
+PRODUCT_NAME := aosp_spartan
 PRODUCT_DEVICE := spartan
 PRODUCT_MANUFACTURER := realme
 PRODUCT_BRAND := realme
@@ -25,14 +35,6 @@ PRODUCT_SYSTEM_DEVICE := RE54E4L1
 
 # Boot Animation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# Everest Flags
-EVEREST_BUILD_TYPE := OFFICIAL
-EVEREST_MAINTAINER := "RYUK"
-TARGET_SUPPORTS_BLUR := true
-TARGET_HAS_UDFPS := true
-EXTRA_UDFPS_ANIMATIONS := true
-WITH_GAPPS := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
