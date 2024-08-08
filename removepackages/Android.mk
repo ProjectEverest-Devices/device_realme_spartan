@@ -8,6 +8,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     AdaptiveVPNPrebuilt \
     AiWallpapers \
+    AmbientSensePrebuilt \
     AmbientStreaming \
     Aperture \
     arcore \
@@ -21,6 +22,8 @@ LOCAL_OVERRIDES_PACKAGES := \
     DCMO \
     DMService \
     GoogleFeedback \
+    GoogleTTS \
+    Glimpse \
     grilservice \
     HealthIntelligenceStubPrebuilt \
     KidsSupervisionStub \
@@ -43,7 +46,9 @@ LOCAL_OVERRIDES_PACKAGES := \
     TurboPrebuilt \
     Tycho \
     VZWAPNLib \
+    WallpaperEmojiPrebuilt \
     WfcActivation \
+    YouTube
 
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
