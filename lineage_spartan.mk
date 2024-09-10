@@ -29,6 +29,7 @@ EVEREST_MAINTAINER := RYUK
 
 # Everest specific Flags
 TARGET_SUPPORTS_BLUR := true
+TARGET_USES_BLUR_RECENT := false
 
 # udfps Flags
 TARGET_HAS_UDFPS := true
