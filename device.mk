@@ -256,7 +256,8 @@ PRODUCT_PACKAGES += \
 # HIDL
 PRODUCT_PACKAGES += \
     libhidltransport.vendor \
-    libhwbinder.vendor
+    libhwbinder.vendor \
+    libutils.vendor
 
 # Hotword enrollment
 PRODUCT_COPY_FILES += \
